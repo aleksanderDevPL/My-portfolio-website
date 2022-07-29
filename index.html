@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aleksander Herc portfolio website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- introduction &nbsp;-->
+
+        <section class="intro" id="home">
+            <div id="wrapper">
+                <h2 class="welcome">Portfolio</h2>
+                <h3 class="dreams">Aleksander Herc</h3>
+            </div>
+            <!--<p class="section__subtitle section__subtitle--intro">
+                Hi, I am <strong>Olek</strong>
+            </p>
+            <img srcz="img/foto.jpg" alt="" class="intro__img">-->
+
+        </section>
+
+        <!-- my services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">
+                What I do
+            </h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Murex</h3>
+                    <p>I have experience working with Murex system integration and maintenance. 
+                        My specialisation is Risk area 
+                        (VaR, stress-testing, backtesting, Taylor VaR, FRTB, xVA, MLC and market risk limits).
+                        I also have knowledge in such areas as Front Office 
+                        (pricing models, sensitivities calculation),
+                        Reporting (ie, tables, extractions, stored procedures) and Backoffice 
+                        (trade workflows and confirmations).
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Consulting</h3>
+                    <p> Time is money, information is money.
+                        <br>
+                        Do you feel spending too much time regularly retrieving information from the Internet? Or maybe you need a personal webpage?
+                        Please be invited to contact me and we will find the solution.
+                        I also invite you to reach out to my Github profile where I'm going share with you my ideas.
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Training</h3>
+                    <p>There is no such thing as bad question.
+                        <br>
+                        Please don't hestitate to drop me an email if you are not sure how 
+                            to accomplish your ideas at work, school and business.
+                        I'll be happy to help you.
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"><strong>IT professional based out of Poland</strong></p>
+            
+            <div class="about-me__body">
+                <p> I am happy to meet you.
+                <p> I have graduated from Warsaw School of Economics on the course of Quantitative methods in IT and specialization of Big Data. After finishing the studies I had great opportunity to become certified CFA Charterholder and licenced stock broker with rights to investment advisory.
+                <p>I currently work as a senior software developer and I have 10+ years of experience within risk management and investment banking roles in both polish and international organizations. I have participated in a number of projects (including Murex system implementation, regulatory, data governance and automatizations). </p> 
+                   I also have technology aptitude and programming skills and I'm delighted to show you details of my experience in the <strong>My experience</strong> section below.</a></p>
+            </div>
+            
+            <img src="img/foto.jpg" alt="Jane leaning against a bus" class="about-me__img">
+         </section>
+     
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My experience</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+         
+         <div class="portfolio">
+             <a href="portfolio-item.html" class="portfolio__item">
+                 <img src="img/wordcloud2.jpg" alt="" class="portfolio__img">
+             </a>
+             
+             <a href="portfolio-item.html" class="portfolio__item">
+                 <img src="img/ThisWWW.jpg" alt="" class="portfolio__img">
+             </a>
+             
+             <a href="#" class="portfolio__item">
+                 <img src="img/ProgrammingLanguages.jpg" alt="" class="portfolio__img">
+             </a>
+             
+             <a href="#" class="portfolio__item">
+                 <img src="img/BigData.jpg" alt="" class="portfolio__img">
+             </a>
+            
+         </div>
+     </section>
+     
+     
+   <!-- Footer -->
+   <footer class="footer">
+    <a href="mailto:aleksander.herc@wp.pl" class="footer__link">aleksander.herc@wp.pl</a>
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://codepen.io/aleksanderdevpl">
+                <i class="fab fa-codepen"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/aleksanderDevPL">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+<script src="js/index.js"></script>
+
+</body>
+
+</html>

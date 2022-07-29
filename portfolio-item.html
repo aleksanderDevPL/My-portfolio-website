@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aleksander Herc portfolio website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Murex</h2>
+            <p class="section__subtitle section__subtitle--about"><strong>Selection of my accomplishments in Risk area</strong></p>
+            
+            <div class="about-me__body">
+                <p> I am happy to meet you.
+                <p> I have graduated from Warsaw School of Economics on the course of Quantitative methods in IT and specialization of Big Data. After finishing the studies I had great opportunity to become certified CFA Charterholder and licenced stock broker with rights to investment advisory.
+            </div>
+            
+            <img src="img/wordcloud2.jpg" alt="" class="about-me__img">
+         </section>
+       
+        <div class="contact-form">
+            <form action="https://formsubmit.co/aleksander.herc@wp.pl" method="POST">
+                <input type="text" name="name" placeholder="Enter your message" required><br><br>
+                <input type="email" name="email" placeholder="Enter your email address" required><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+   <!-- Footer -->
+   <footer class="footer">
+    <a href="mailto:aleksander.herc@wp.pl" class="footer__link">aleksander.herc@wp.pl</a>
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://codepen.io/aleksanderdevpl">
+                <i class="fab fa-codepen"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/aleksanderDevPL">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
