@@ -521,7 +521,7 @@ header {
     margin-left: 160px;
     margin-top: 0px;
     margin-bottom: 20px;
-    -webkit-text-stroke: 5px #da0000;
+    -webkit-text-stroke: 0.5px #da0000;
     -webkit-filter: drop-shadow(6px 2px 10px #ff0000);
     z-index: 20;
   }
