@@ -522,7 +522,7 @@ header {
     margin-top: 0px;
     margin-bottom: 20px;
     -webkit-text-stroke: 0.05px #da0000;
-    -webkit-filter: drop-shadow(6px 2px 10px #ff0000);
+    -webkit-filter: drop-shadow(6px 2px 10px #da0000);
     z-index: 20;
   }
   
