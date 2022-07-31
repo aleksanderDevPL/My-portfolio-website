@@ -527,7 +527,7 @@ header {
   }
   
   .windows .dreams {
-    -webkit-text-stroke: 0.1px #ff00009a;
+    -webkit-text-stroke: 0.15px #ff00009a;
   }
 
   @-webkit-keyframes welcome_effect {
