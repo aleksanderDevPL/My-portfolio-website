@@ -521,13 +521,13 @@ header {
     margin-left: 160px;
     margin-top: 0px;
     margin-bottom: 20px;
-    -webkit-text-stroke: 0.05px #da0000;
+    -webkit-text-stroke: 0.1px #000000;
     -webkit-filter: drop-shadow(6px 2px 10px #da0000);
     z-index: 20;
   }
   
   .windows .dreams {
-    -webkit-text-stroke: 0.005px #ff00009a;
+    -webkit-text-stroke: 0.1px #0000009a;
   }
 
   @-webkit-keyframes welcome_effect {
