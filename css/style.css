@@ -488,7 +488,7 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.3px #000000;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     font-family: 'Titillium Web', sans-serif;
     font-style: bold;
     margin-top: -60px;
@@ -514,7 +514,7 @@ header {
   .dreams {
     position: relative;
     font-family: 'Mr Dafoe', cursive;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
     color: rgb(255, 0, 0) ;
     transform:rotate(-7deg);
     -ms-transform:rotate(-7deg);
