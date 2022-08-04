@@ -514,7 +514,7 @@ header {
   .dreams {
     position: relative;
     font-family: 'Mr Dafoe', cursive;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     color: rgb(255, 0, 0) ;
     transform:rotate(-7deg);
     -ms-transform:rotate(-7deg);
@@ -522,7 +522,7 @@ header {
     margin-left: 160px;
     margin-top: 0px;
     margin-bottom: 20px;
-    -webkit-text-stroke: 0.25px #000000;
+    -webkit-text-stroke: 0.10px #000000;
     -webkit-filter: drop-shadow(5px 1.75px 8px #da0000);
     z-index: 20;
     letter-spacing: 0.065em;
