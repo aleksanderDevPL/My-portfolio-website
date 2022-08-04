@@ -488,7 +488,7 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.10px #000000;
-    font-size: 3.3rem;
+    font-size: 3.4rem;
     font-family: 'Titillium Web', sans-serif;
     font-style: bold;
     margin-top: -60px;
@@ -514,7 +514,7 @@ header {
   .dreams {
     position: relative;
     font-family: 'Mr Dafoe', cursive;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     color: rgb(255, 0, 0) ;
     transform:rotate(-7deg);
     -ms-transform:rotate(-7deg);
@@ -525,11 +525,11 @@ header {
     -webkit-text-stroke: 0.10px #000000;
     -webkit-filter: drop-shadow(5px 1.75px 8px #da0000);
     z-index: 20;
-    letter-spacing: 0.065em;
+    letter-spacing: 0.07em;
   }
   
   .windows .dreams {
-    -webkit-text-stroke: 0.25px #0000009a;
+    -webkit-text-stroke: 0.10px #0000009a;
   }
 
   @-webkit-keyframes welcome_effect {
